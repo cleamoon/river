@@ -10,3 +10,7 @@ image = "0.23.14"
 version = "0.35"
 default-features = false
 features = ["ttf","image","gfx","mixer"]
+
+[dependencies.druid]
+features = ["im", "svg", "image", "png"]
+git = "https://github.com/linebender/druid"
