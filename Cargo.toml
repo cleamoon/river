@@ -6,11 +6,11 @@ edition = "2018"
 [dependencies]
 image = "0.23.14"
 
-#[dependencies.sdl2]
-#version = "0.35"
-#default-features = false
-#features = ["ttf","image","gfx","mixer"]
+[dependencies.sdl2]
+version = "0.35"
+default-features = false
+features = ["ttf","image","gfx","mixer"]
 
-[dependencies.druid]
-features = ["im", "svg", "image", "png"]
-git = "https://github.com/linebender/druid"
+#[dependencies.druid]
+#features = ["im", "svg", "image", "png"]
+#git = "https://github.com/linebender/druid"
